@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.categories.side-project %}
+      <li>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+          {% if post.img %}
+          <img class="image-border" src="{{site.baseurl}}img/{{post.img}}">
+          {% endif %}
+          </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

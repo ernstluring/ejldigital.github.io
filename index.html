@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Portfolio</h1>
+
+  <ul class="post-list">
+    {% for post in site.categories.portfolio %}
+      <li>
+        <span class="post-meta"></span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+          {% if post.img %}
+          <img class="image-border" src="{{site.baseurl}}img/{{post.img}}">
+          {% endif %}
+          </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
