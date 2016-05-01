@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: default
 ---
 
 <div class="home">
 
+  {{ content }}
+
   <ul class="post-list">
     {% for post in site.categories.side-project %}
       <li>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
