@@ -315,9 +315,13 @@
     }
 }
 
-.image-border {
+.image-border-hover {
   border: 3px solid $green-color-light;
   &:hover{
     border-color: black;
   }
+}
+
+.image-border {
+  border: 3px solid black;
 }
