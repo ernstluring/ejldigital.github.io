@@ -316,5 +316,8 @@
 }
 
 .image-border {
-    border: 3px solid black;
+  border: 3px solid $green-color-light;
+  &:hover{
+    border-color: black;
+  }
 }
