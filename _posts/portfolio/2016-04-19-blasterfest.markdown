@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jetpack"
+title:  "Blasterfest"
 categories: portfolio
-img: jetpack-header.png
+img: blasterfest-header.png
 ---
 {% highlight csharp %}
 void Shoot ()
