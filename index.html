@@ -13,6 +13,8 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
+          -
+          {{ post.dev-role }}
           {% if post.img %}
           <img class="image-border-hover" src="{{site.baseurl}}img/{{post.img}}">
           {% endif %}
@@ -21,5 +23,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
 </div>

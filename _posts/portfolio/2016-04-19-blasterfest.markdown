@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blasterfest"
+dev-role: "Lead Gameplay Programmer"
 categories: portfolio
 img: blasterfest-header.png
 ---

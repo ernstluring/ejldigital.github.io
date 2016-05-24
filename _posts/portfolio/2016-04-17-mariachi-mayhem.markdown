@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mariachi Mayhem"
+dev-role: "Gameplay Programmer"
 categories: portfolio
 img: mariachi-mayhem-header.png
 ---
@@ -21,9 +22,10 @@ As an animator and entrepreneur, Disney was particularly noted as a filmmaker an
 Disney died from lung cancer on December 15, 1966, in Burbank, California. He left behind a vast legacy, including numerous animated shorts and feature films produced during his lifetime; the company, parks, and animation studio that bear his name; and the California Institute of the Arts (CalArts).
 
 #### Childhood
+<!-- <img class="image-enhancer" src="/img/me.jpg"> -->
 
-<!-- <div id="title-image"></div> -->
-<img src="/img/me.jpg">
+![me]{: class="image-enhancer" }
+
 
 
 Disney was born on December 5, 1901, at 2156 North Tripp Avenue in Chicago's Hermosa community area, to Elias Charles Disney, who was Irish-Canadian, and Flora Call Disney, who was of German and English descent. His great-grandfather, Arundel Elias Disney, had emigrated from Gowran, County Kilkenny, Ireland where he was born in 1801. Arundel Disney was a descendant of Robert d'Isigny, a Frenchman who had travelled to England with William the Conqueror in 1066. With the d'Isigny name anglicized as "Disney", the family settled in the English village now known as Norton Disney, south of the city of Lincoln, in the county of Lincolnshire.
@@ -37,3 +39,5 @@ In 1878 Disney's father, Elias Charles Disney, had moved from Huron County, Onta
 In 1917 Elias acquired shares in the O-Zell jelly factory in Chicago and moved his family back to the city.[24] In the fall Disney began his freshman year at McKinley High School and took night courses at the Chicago Academy of Fine Arts under the tutelage of artist and educator Louis Grell (1887–1960). He became the cartoonist for the school newspaper, drawing patriotic topics on World War I. With a hope to join the army, Disney dropped out of high school at the age of sixteen, but was rejected for being under-age.[26] Afterwards, Disney and a friend joined the Red Cross.[27] He was soon sent to France for a year, where he drove an ambulance, but only after the armistice was signed on November 11, 1918.
 
 <p class="u--startsWithDoubleQuote">“Hoping to find work outside the Chicago O-Zell factory, Walt moved back to Kansas City in 1919 to begin his artistic career.” He considered becoming an actor, but decided to draw political caricatures or comic strips for a newspaper. When nobody wanted to hire him as either an artist or as an ambulance driver, his brother Roy, then working in a local bank, got Walt a temporary job through a bank colleague at the Pesmen-Rubin Art Studio, where he created advertisements for newspapers, magazines, and movie theaters. At Pesmen-Rubin he met cartoonist Ubbe Iwerks and, when their time at the studio expired, they decided to start their own commercial company together.</p>
+
+[me]: {{ site.baseurl }}/img/me.jpg

@@ -313,6 +313,9 @@
             font-size: 18px;
         }
     }
+    a {
+      text-decoration: underline;;
+    }
 }
 
 .image-border-hover {
@@ -324,4 +327,11 @@
 
 .image-border {
   border: 3px solid black;
+}
+
+.image-enhancer {
+  &:hover{
+    transform: translate(265px) scale(3);
+    transition: 0.5s ease-in;
+  }
 }
