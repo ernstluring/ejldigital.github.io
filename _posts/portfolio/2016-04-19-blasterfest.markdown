@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Blasterfest"
-dev-role: "Lead Gameplay Programmer"
+genre: "Local multiplayer brawler"
+dev-role: "lead gameplay programmer"
 categories: portfolio
-img: blasterfest-header.png
+img: blasterfest-header-small.png
 permalink: /blasterfest/
 ---
 * __Genre:__ local multiplayer brawler

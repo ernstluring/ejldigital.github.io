@@ -9,12 +9,29 @@ layout: default
   <ul class="post-list">
     {% for post in site.categories.portfolio %}
       <li>
-        <span class="post-meta"></span>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
-          -
-          {{ post.dev-role }}
+          <span class="post-meta">Role: {{ post.dev-role }}</span>
+          {% if post.img %}
+          <img class="image-border-hover" src="{{site.baseurl}}img/{{post.img}}">
+          {% endif %}
+          <span class="post-meta">{{ post.genre }}</span>
+          </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Side Projects</h1>
+  <span class="page-content">This is a list of (sometimes small) side projects were I work on in my spare time.</span>
+  <ul class="post-list">
+    {% for post in site.categories.side-project %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+          <span class="post-meta">{{ post.description }}</span>
           {% if post.img %}
           <img class="image-border-hover" src="{{site.baseurl}}img/{{post.img}}">
           {% endif %}
@@ -23,4 +40,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
 </div>

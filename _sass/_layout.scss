@@ -95,7 +95,6 @@
         font-size: 25px;
         border-bottom: 2px solid $green-color-light;
 
-
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
@@ -242,29 +241,43 @@
 }
 
 .page-heading {
-  // border-bottom: 3px double $green-color-dark;
-  // padding-bottom: 3px;
+  border-bottom: 2px solid gray;
   color: $green-color-dark;
   font-size: $page-title-size;
+  text-align: center;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  @include media-query($on-laptop) {
+    justify-content: center;
+  }
+
+  li {
+    margin-bottom: $spacing-unit;
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .post-meta {
+    display: block;
     font-size: $small-font-size;
     color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+    font-size: $base-font-size;
 }
 
 

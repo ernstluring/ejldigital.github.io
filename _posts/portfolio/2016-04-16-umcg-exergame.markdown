@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "UMCG Exergame"
-dev-role: "Tool Programmer"
+genre: "Exercise game"
+dev-role: "tool programmer"
 categories: portfolio
-img: umcg-header.png
+img: umcg-header-small.png
 permalink: /umcg-exergame/
 ---
 * __Genre:__ exercise game

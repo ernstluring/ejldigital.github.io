@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Dungeon Drivers"
-dev-role: "Gameplay Programmer"
+genre: "Turn based strategy game"
+dev-role: "gameplay programmer"
 categories: portfolio
-img: dungeon-drivers-header.png
+img: dungeon-drivers-header-small.png
 permalink: /dungeon-drivers/
 ---
 * __Genre:__ turn based strategy game
