@@ -14,5 +14,7 @@ I currently study Communication & Multimedia Design at the NHL University of App
 
 At the moment I am mainly focusing on programming in C# in combination with the Unity game engine, but I also have experience with C++(SFML) and HTML5/Javascript. Often I get curious and excited about new and or different programming languages and take quick peeks inside languages like Go and Rust.
 
+If you would like to see my resume you can find it [here][resume]
 
+[resume]: {{ site.baseurl }}/resume
 [me]: {{ site.baseurl }}/img/me.jpg
