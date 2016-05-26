@@ -13,7 +13,7 @@ permalink: /umcg-exergame/
 * __Date:__ february 2015 - july 2015
 * __Repository  :__ [ernstluring/umcg-exergame][github]
 
-This project was an assignment from the game development studio [8D Games][8dgames]. They were creating an exercise game focused on balance exercise and fall prevention for elderly people in collaboration with UMCG Groningen. A Kinect registers the movement of the balance exercises and converts these in-game to ice skating motions. The data of the players movement collected by the Kinect can be forwarded to a physician or physiotherapist who can inspect this data and see for example if the patient leans to much to the left or right and/or in what kind of physical shape the patient is in.
+This project was an assignment from the game development studio [8D Games][8dgames]. They were creating an exercise game focused on balance exercise and fall prevention for elderly people in collaboration with UMCG Groningen. A Kinect registers the movement of the balance exercises and converts these in-game to ice skating motions. The data of the players' movement collected by the Kinect can be forwarded to a physician or physiotherapist. They can inspect this data and see for example if the patient leans to much to the left or right and/or in what kind of physical shape the patient is in.
 
 
 {% include youtubePlayer.html id="OKwsO7oyTEI" %}
@@ -34,7 +34,7 @@ Because I'm a programmer by heart I quickly started to program Unity and Maya to
 * [GetObjectsByName][getobjectsbyname], [GiveParent][giveparent] and [ReplaceGameObjects][replacegameobjects] are a bunch of Unity tools I created to make the creation of levels in Unity easier.
 
 
-All the code can also be found on [this github repository][github].
+All the code can also be found on [this GitHub repository][github].
 
 ![exergamescreen1]
 
