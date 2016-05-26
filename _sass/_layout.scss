@@ -292,8 +292,6 @@
 .post-title {
     font-size: $page-title-size;
     color: $green-color-dark;
-    // letter-spacing: -1px;
-    // line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -328,7 +326,7 @@
 
 .image-enhancer {
   &:hover{
-    transform: translate(265px) scale(3);
+    transform: scale(1.8);
     transition: 0.5s ease-in;
   }
 }
