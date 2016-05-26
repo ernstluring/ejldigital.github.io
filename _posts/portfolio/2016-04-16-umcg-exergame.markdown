@@ -37,10 +37,8 @@ Because I'm a programmer by heart I quickly started to program Unity and Maya to
 All the code can also be found on [this github repository][github].
 
 ![exergamescreen1]
-![exergamescreen2]{: class="image-enhancer"}
 
 [exergamescreen1]: {{ site.baseurl }}/img/exergame/exergame-screenshot.png
-[exergamescreen2]: {{ site.baseurl }}/img/exergame/exergame-screenshot2.png
 [getobjectsbyname]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/GetObjectsByNameEditor.cs
 [giveparent]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/GiveParent.cs
 [replacegameobjects]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/ReplaceGameObjects.cs
