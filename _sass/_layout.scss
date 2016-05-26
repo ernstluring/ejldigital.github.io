@@ -280,6 +280,20 @@
     font-size: $base-font-size;
 }
 
+.post-link-sideprojects {
+  display: block;
+  margin-top: 20px;
+  padding-top: 10px;
+  height: 250px;
+  width: 250px;
+  font-size: $base-font-size;
+  background-color: #eef;
+
+  &:hover{
+    background-color: darken(#eef, 4);
+  }
+}
+
 
 
 /**

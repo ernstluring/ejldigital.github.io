@@ -29,12 +29,9 @@ layout: default
     {% for post in site.categories.side-project %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="post-link-sideprojects" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
           <span class="post-meta">{{ post.description }}</span>
-          {% if post.img %}
-          <img class="image-border-hover" src="{{site.baseurl}}img/{{post.img}}">
-          {% endif %}
           </a>
         </h2>
       </li>
