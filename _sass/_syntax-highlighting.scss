@@ -5,6 +5,8 @@
     background: #fff;
     @extend %vertical-rhythm;
 
+    height: 250px;
+
     .highlighter-rouge & {
       background: #eef;
     }
