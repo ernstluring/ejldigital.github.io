@@ -14,7 +14,7 @@ permalink: /mariachi-mayhem/
 * __Date:__ february 2016
 * __Repository:__
 
-Mariachi Mayhem is a fun party game created during the Global Game Jam 2016 with as theme "ritual". The game was created with a
+Mariachi Mayhem is a fun party game created in 48 hours during the Global Game Jam 2016 with as theme "ritual". The game was created with a
 team of 4 people: two 3d/texture artists, one animator and me as programmer.
 
 ![ingame1]

@@ -32,14 +32,15 @@ Because I'm a programmer by heart I quickly started to program Unity and Maya to
 * [BackUpper][backupper] is a Maya tool written in python. I saw that a lot of artists used "save as" often and I thought: "that can go quicker and easier". So I started writing a backup plugin that saves a new scene with a incrementing number with a press of a button.
 * [AlignX][alignx], [AlignY][aligny], [AlignZ][alignz] are a Maya tools I created that straightens an edge between vertices. Currently it only works with two vertices, but I'm planning on extending it so it can work with more vertices. I created this tool when I saw there was a uv mapping tool that does the same thing and I thought that it would be useful during modeling.
 * [GetObjectsByName][getobjectsbyname], [GiveParent][giveparent] and [ReplaceGameObjects][replacegameobjects] are a bunch of Unity tools I created to make the creation of levels in Unity easier.
-* The biggest project I worked on during this semester is creating a universal level editing tool for in Unity. This was a request of the client; he wanted to easily change the models in-game and especially during runtime so the levels could be a little bit random.
+* [LevelEditingTool][levelediting]. The biggest project I worked on during this semester is creating a level editing tool for in Unity. This was a request of the client; he wanted to easily change the models in-game and especially during runtime so the levels could be a little bit random. The user can create 3 types of databases (buildings, trees, props) that dynamically load the models of the right type. These databases are connected to gameobjects that can be used in the scene editor and with a push on a button (or assigning from external script) the model of that gameobject can be changed.
 
 
 All the code can also be found on [this GitHub repository][github].
 
 {% include imageEnhancer.html src="/img/exergame/exergame-screenshot.png" scale="1" %}
 
-[getobjectsbyname]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/GetObjectsByNameEditor.cs
+[levelediting]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/
+[getobjectsbyname]:  https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/GetObjectsByNameEditor.cs
 [giveparent]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/GiveParent.cs
 [replacegameobjects]: https://github.com/ernstluring/umcg-exergame/blob/master/Unity/Editor/ReplaceGameObjects.cs
 [alignx]: https://github.com/ernstluring/umcg-exergame/blob/master/Maya/AlignXYZ/AlignX1.0.py
