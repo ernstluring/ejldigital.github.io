@@ -30,6 +30,8 @@ I was the only programmer in a team of 6 people, the rest of the team were mainl
 
 I designed most of the systems beforehand with UML. With this game I chose to mainly make use of two design patterns: the strategy pattern and the state machine pattern. I also created a xml serialization system, so the card design process would be easier and faster for the game designer and the iteration time would be shorter.
 
+All the code can be found on the [GitHub repository.][github]
+
 * [XML serialization][cardsystem]:
 
 {% include imageEnhancer.html src="/img/dungeon-drivers/serialization.jpg" scale="1" %}

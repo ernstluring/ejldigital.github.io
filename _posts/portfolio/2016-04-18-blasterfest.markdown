@@ -388,10 +388,10 @@ public class Explosion : AExplosion {
 			else if (splash[i] != colToIgnore)
 			{
 				IDestructable destructable = splash[i].GetComponent(typeof(IDestructable)) as IDestructable;
-				IKillable k = splash[i].GetComponent(typeof(IKillable)) as IKillable;
+				IKillable killable = splash[i].GetComponent(typeof(IKillable)) as IKillable;
 				if (destructable != null)
 					destructable.Destroy(ownerCol, owner, wasRevengeBullet);
-				if (k != null && k.Kill(owner.IsWanted()))
+				if (killable != null && k.Kill(owner.IsWanted()))
 				{
 					// Wanted Game Mode Kill
 					if (GameModeManager.Instance.GetGameMode () == GameMode.Wanted) {
