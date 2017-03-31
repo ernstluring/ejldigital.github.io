@@ -1,19 +1,19 @@
----
+<!-----
 layout: post
-title:  "Dungeon Drivers"
-genre: "Turn based strategy game"
-dev-role: "gameplay programmer"
+title:  "Internship Abbey Games"
+genre: "Particle editor"
+dev-role: "tool development"
 categories: portfolio
-img: dungeon-drivers-header-small.jpg
-permalink: /dungeon-drivers/
+img: template.jpg
+permalink: /internship/
 ---
 * __Genre:__ turn based strategy game
-* __Platform:__ PC
-* __Role:__ gameplay programmer
-* __Date:__ september 2015 - february 2016
+* __Platform:__ PC/OSX
+* __Role:__ tool programmer
+* __Date:__ september 2016 - february 2017
 * __Repository:__ [ernstluring/dungeon-drivers][github]
 <!--* __Download:__ [Windows][windowsBuild] / [OSX][osxBuild]-->
-<!--* __Additional Info:__ the game is played best with two xbox controllers.-->
+* __Additional Info:__ the game is played best with two xbox controllers.
 
 {% include youtubePlayer.html id="3dKhFZrvpBU" %}
 
@@ -238,4 +238,4 @@ public abstract class Weapon : MonoBehaviour {
 [windowsBuild]: https://drive.google.com/file/d/0B-0-Rr7MTDqgaWNURmpjM2tNQlk/view?usp=sharing
 [osxBuild]: https://drive.google.com/file/d/0B-0-Rr7MTDqgRXlyTGFQVFBJQVU/view?usp=sharing
 [conceptsleutelaars]: www.conceptsleutelaars.nl
-[github]: https://github.com/ernstluring/dungeon-drivers
+[github]: https://github.com/ernstluring/dungeon-drivers-->

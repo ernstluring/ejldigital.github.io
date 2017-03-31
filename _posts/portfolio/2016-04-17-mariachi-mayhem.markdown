@@ -13,8 +13,8 @@ permalink: /mariachi-mayhem/
 * __Setting:__ global gamejam 2016
 * __Date:__ february 2016
 * __Repository:__ [ernstluring/mariachi-mayhem][github]
-* __Download:__ [Windows][windowsBuild] / [OSX][osxBuild]
-* __Additional Info:__ the game requires (2 - 4) controllers
+<!--* __Download:__ [Windows][windowsBuild] / [OSX][osxBuild]-->
+<!--* __Additional Info:__ the game requires (2 - 4) controllers-->
 
 Mariachi Mayhem is a fun party game created in 48 hours during the Global Game Jam 2016 with as theme "ritual". The game was created with a
 team of 4 people: two 3d/texture artists, one animator and me as programmer.

@@ -12,8 +12,8 @@ permalink: /blasterfest/
 * __Role:__ lead gameplay programmer, SCRUM master
 * __Date:__ february 2016 - current
 * __Repository:__ [ernstluring/blasterfest][github]
-* __Download:__ [Web][webBuild] / [Windows][windowsBuild] / [OSX][osxBuild]
-* __Additional Info:__ the game requires (2 - 4) controllers
+<!--* __Download:__ [Web][webBuild] / [Windows][windowsBuild] / [OSX][osxBuild]-->
+<!--* __Additional Info:__ the game requires (2 - 4) controllers-->
 
 ![wantedImg]
 
