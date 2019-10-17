@@ -1,41 +1,5 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Portfolio</h1>
-
-  <ul class="post-list">
-    {% for post in site.categories.portfolio %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-          <span class="post-meta">Role: {{ post.dev-role }}</span>
-          {% if post.img %}
-          <img class="image-border-hover" src="{{site.baseurl}}img/{{post.img}}">
-          {% endif %}
-          <span class="post-meta">{{ post.genre }}</span>
-          </a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <!-- <h1 class="page-heading">Side Projects</h1>
-  <span class="page-content">This is a list of (small) side projects were I work on or commit myself to in my spare time.</span>
-  <ul class="post-list">
-    {% for post in site.categories.side-project %}
-      <li>
-        <h2>
-          <a class="post-link-sideprojects" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-          <span class="post-meta">{{ post.description }}</span>
-          </a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul> -->
-
-</div>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to https://example.com/</title>
+<meta http-equiv="refresh" content="0; URL=https://example.com/">
+<link rel="canonical" href="https://www.linkedin.com/in/ernstluring/">
