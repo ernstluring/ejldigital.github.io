@@ -1,1 +1,2 @@
-Portfolio website of Ernst Luring made with Jekyll
+# EJL Digital Website
+Digital product development, consultancy and innovation
