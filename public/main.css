@@ -1,0 +1,82 @@
+html, body {
+    background: #F5F5F5;
+    color: #2d2d2d;
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a, a:visited {
+    color: #52AA8A;
+    text-decoration: none;
+}
+a:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+main {
+    margin: auto;
+    max-width: 40rem;
+    padding: 1rem;
+}
+pre {
+    background: white;
+    overflow: scroll;
+    padding: 1rem;
+}
+td {
+    border: 1px solid #2d2d2d;
+    padding: 10px;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+}
+
+@media(max-width:38rem) {
+    .homepage-list li a {
+        width: 100%;
+    }
+}
+
+header {
+    text-align: center;
+}
+header > h3 {
+    margin-top:0;
+}
+
+.profile-picture {
+    margin: auto;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+
+.menu {
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.menu > li > a {
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+    border: solid;
+    border-color: #52AA8A;
+    border-width: 2px;
+    background-color: #52AA8A;
+    font-weight: bold;
+}
+
+.menu > li > a:hover {
+    background-color: #F5F5F5;
+    color: #2d2d2d;
+    text-decoration: none;
+    font-weight: bold;
+}

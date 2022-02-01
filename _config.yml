@@ -1,1 +1,29 @@
-theme: jekyll-theme-cayman
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               '@ejldigital'
+url:                 https://ejldigital.com
+tagline:             'Human-Centered Software Development and Innovation'
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Cloudinary
+#cloudinary:
+#  cloud_name: your cloudinary username
+
+# About/contact
+author:
+  name:              Ernst Luring
+  url:               https://twitter.com/ejldigital
+  email:             ejldigital@mailbox.org
+  linkedin:          https://www.linkedin.com/in/ernstluring/
+
+# Custom vars
+version:             1.0.0
