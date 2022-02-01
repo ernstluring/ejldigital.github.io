@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               'Light Speed'
-url:                 https://lightspeed.netlify.com
-tagline:             'Jekyll theme with a perfect Lighthouse score'
+title:               '@ejldigital'
+url:                 https://ejldigital.com
+tagline:             'Human-Centered Software Development and Innovation'
 baseurl:             ""
 
 # Assets
@@ -20,11 +20,10 @@ sass:
 
 # About/contact
 author:
-  name:              Bradley Taunt
-  url:               https://twitter.com/bradtaunt
-  email:             bradleytaunt@gmail.com
+  name:              Ernst Luring
+  url:               https://twitter.com/ejldigital
+  email:             ejldigital@mailbox.org
+  linkedin:          https://www.linkedin.com/in/ernstluring/
 
 # Custom vars
 version:             1.0.0
-github:
-  repo:              https://github.com/bradleytaunt/lightspeed
