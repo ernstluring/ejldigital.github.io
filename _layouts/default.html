@@ -3,13 +3,17 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-new-gr-c-s-check-loaded="8.895.0" data-gr-ext-installed="">
+    {% include header.html %}
 
-    <main id="main" role="main">
-      {% include header.html %}
+    <main class="content" aria-label="Content">
+      {% include hero.html %}
       {{ content }}
+      {% include testimonials.html %}
       {% include footer.html %}
     </main>
     
+  <!-- <script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script> -->
+  <!-- <script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-ejldigital-light");</script> -->
   </body>
 </html>

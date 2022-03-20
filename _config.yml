@@ -2,9 +2,12 @@
 permalink:           pretty
 
 # Setup
-title:               '@ejldigital'
+title:               'EJL Digital'
 url:                 https://ejldigital.com
-tagline:             'Human-Centered Software Development and Innovation'
+# tagline:             'Human-Centered Software Development and Innovation'
+tagline:            'Optimizing application performances, improving workflows and creating digital products'
+# tagline:           'I create digital products that support people do their work better'
+headline:           'Hey, I’m Ernst! Something about me.'
 baseurl:             ""
 
 # Assets
