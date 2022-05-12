@@ -1,63 +1,68 @@
 <section class="hero">
-    <div class="container">
-        <div class="row">
-            <div class="col col-12">
-                <div class="hero__inner">
-                    <div class="hero__left">
-                        <div class="hero__image">
-                            <img src="/public/Ernst2.png" alt="Joseph Lawrence's Picture">
-                        </div>
-                    </div>
-                    <div class="hero__right">
-                        <h1 class="hero__title">{{site.headline}}</h1>
-                        <p class="hero__description">{{site.tagline}}</p>
-                        <div class="hero__contact">
-
-                            <div class="social">
-                                <ul class="social__list list-reset">
-
-                                    <li class="social__item">
-                                        <a class="social__link" href="https://twitter.com" target="_blank"
-                                            rel="noopener" aria-label="Twitter link"><i
-                                                class="ion ion-logo-twitter"></i></a>
-                                    </li>
-
-                                    <li class="social__item">
-                                        <a class="social__link" href="https://facebook.com" target="_blank"
-                                            rel="noopener" aria-label="Facebook link"><i
-                                                class="ion ion-logo-facebook"></i></a>
-                                    </li>
-
-                                    <li class="social__item">
-                                        <a class="social__link" href="https://pinterest.com" target="_blank"
-                                            rel="noopener" aria-label="Pinterest link"><i
-                                                class="ion ion-logo-pinterest"></i></a>
-                                    </li>
-
-                                    <li class="social__item">
-                                        <a class="social__link" href="https://dribbble.com" target="_blank"
-                                            rel="noopener" aria-label="Dribbble link"><i
-                                                class="ion ion-logo-dribbble"></i></a>
-                                    </li>
-
-                                    <li class="social__item">
-                                        <a class="social__link" href="https://instagram.com" target="_blank"
-                                            rel="noopener" aria-label="Instagram link"><i
-                                                class="ion ion-logo-instagram"></i></a>
-                                    </li>
-
-                                    <li class="social__item">
-                                        <a class="social__link" href="https://vimeo.com" target="_blank" rel="noopener"
-                                            aria-label="Vimeo link"><i class="ion ion ion-logo-vimeo"></i></a>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+          <div class="hero__left">
+            <div class="hero__image">
+              <img src="/public/Ernst2.png" alt="Joseph Lawrence's Picture" />
             </div>
+          </div>
+          <div class="hero__right">
+            <h1 class="hero__title">{{site.headline}}</h1>
+            <p class="hero__description">{{site.tagline}}</p>
+            <div class="hero__contact">
+              <div class="social">
+                <ul class="social__list list-reset">
+                  <li class="social__item">
+                    <a
+                      class="social__link"
+                      href="{{site.author.linkedin}}"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="LinkedIn link"
+                      ><i class="ion ion-logo-linkedin"></i
+                    ></a>
+                  </li>
+
+                  <li class="social__item">
+                    <a
+                      class="social__link"
+                      href="{{site.author.twitter}}"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Twitter link"
+                      ><i class="ion ion-logo-twitter"></i
+                    ></a>
+                  </li>
+
+                  <li class="social__item">
+                    <a
+                      class="social__link"
+                      href="{{site.author.github}}"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Social link"
+                      ><i class="ion ion-logo-github"></i
+                    ></a>
+                  </li>
+
+                  <li class="social__item">
+                    <a
+                      class="social__link"
+                      href="mailto:{{site.author.email}}"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Social link"
+                      ><i class="ion ion-md-mail"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>

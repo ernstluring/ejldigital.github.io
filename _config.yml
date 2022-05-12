@@ -1,21 +1,21 @@
 # Permalinks
-permalink:           pretty
+permalink: pretty
 
 # Setup
-title:               'EJL Digital'
-url:                 https://ejldigital.com
+title: "EJL Digital"
+url: https://ejldigital.com
 # tagline:             'Human-Centered Software Development and Innovation'
-tagline:            'Optimizing application performances, improving workflows and creating digital products'
+tagline: "Optimizing application performances, improving workflows and creating digital products"
 # tagline:           'I create digital products that support people do their work better'
-headline:           'Hey, I’m Ernst! Something about me.'
-baseurl:             ""
+headline: "Hey, I’m Ernst! Something about me."
+baseurl: ""
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 # Cloudinary
 #cloudinary:
@@ -23,10 +23,11 @@ sass:
 
 # About/contact
 author:
-  name:              Ernst Luring
-  url:               https://twitter.com/ejldigital
-  email:             ejldigital@mailbox.org
-  linkedin:          https://www.linkedin.com/in/ernstluring/
+  name: Ernst Luring
+  twitter: https://twitter.com/ejldigital
+  email: ernst@ejldigital.com
+  linkedin: https://www.linkedin.com/in/ernstluring/
+  github: https://github.com/ernstluring
 
 # Custom vars
-version:             1.0.0
+version: 1.0.0
