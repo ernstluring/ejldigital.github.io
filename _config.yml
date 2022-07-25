@@ -4,22 +4,18 @@ permalink: pretty
 # Setup
 title: "EJL Digital"
 url: https://ejldigital.com
-# tagline:             'Human-Centered Software Development and Innovation'
-tagline: "Optimizing application performances, improving workflows and creating digital products"
-# tagline:           'I create digital products that support people do their work better'
-headline: "Hey, I’m Ernst! Something about me."
+# tagline: "Optimizing application performances, improving workflows and creating digital products"
+tagline: "Improving workflows by creating tools and apps"
+
+headline: "Hey, I’m Ernst!"
 baseurl: ""
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir: _sass
-  style: :compressed
-
-# Cloudinary
-#cloudinary:
-#  cloud_name: your cloudinary username
+# sass:
+#   sass_dir: _sass
+#   style: :compressed
 
 # About/contact
 author:
@@ -29,5 +25,7 @@ author:
   linkedin: https://www.linkedin.com/in/ernstluring/
   github: https://github.com/ernstluring
 
+collections:
+  - latest_work
 # Custom vars
 version: 1.0.0
