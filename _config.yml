@@ -4,10 +4,10 @@ permalink: pretty
 # Setup
 title: "EJL Digital"
 url: https://ejldigital.com
-# tagline: "Optimizing application performances, improving workflows and creating digital products"
-tagline: "Improving workflows by creating tools and apps"
+tagline: "I create games, apps and tools that are intuitive, fun and support
+  people in their lives and work."
 
-headline: "Hey, I’m Ernst!"
+headline: "Hi, I’m Ernst"
 baseurl: ""
 
 # Assets
@@ -24,6 +24,8 @@ author:
   email: ernst@ejldigital.com
   linkedin: https://www.linkedin.com/in/ernstluring/
   github: https://github.com/ernstluring
+  instagram: https://www.instagram.com/ejldigital/
+  kvk: 83625259
 
 collections:
   - latest_work

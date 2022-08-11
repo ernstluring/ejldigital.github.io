@@ -9,11 +9,8 @@
             </div>
           </div>
           <div class="hero__right">
-            <h1 class="hero__title">Hi, I’m Ernst. <br /></h1>
-            <p class="hero__description">
-              I create games and apps that support people and help them do their
-              work better in a fun way.
-            </p>
+            <h1 class="hero__title">{{ site.headline }}</h1>
+            <p class="hero__description">{{ site.tagline }}</p>
             <div class="hero__contact">
               <div class="social">
                 <ul class="social__list list-reset">
@@ -31,11 +28,11 @@
                   <li class="social__item">
                     <a
                       class="social__link"
-                      href="{{site.author.twitter}}"
+                      href="mailto:{{site.author.email}}"
                       target="_blank"
                       rel="noopener"
-                      aria-label="Twitter link"
-                      ><i class="ion ion-logo-twitter"></i
+                      aria-label="Social link"
+                      ><i class="ion ion-md-mail"></i
                     ></a>
                   </li>
 
@@ -53,11 +50,11 @@
                   <li class="social__item">
                     <a
                       class="social__link"
-                      href="mailto:{{site.author.email}}"
+                      href="{{site.author.instagram}}"
                       target="_blank"
                       rel="noopener"
                       aria-label="Social link"
-                      ><i class="ion ion-md-mail"></i
+                      ><i class="ion ion-logo-instagram"></i
                     ></a>
                   </li>
                 </ul>

@@ -3991,6 +3991,10 @@ table td {
 .footer__author-bio {
   margin-bottom: 0;
 }
+.footer__author-reachme {
+  margin-top: 24px;
+}
+
 .social {
   margin-top: 24px;
 }
