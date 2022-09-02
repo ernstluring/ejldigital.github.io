@@ -2,7 +2,7 @@
 [MAIN STYLESHEET]
 -------------------------------------------------------------------*/
 :root {
-  --brand-color: #533feb;
+  --brand-color: #F0CA5D;
   --white: #fff;
   --light-gray: #f0f0f0;
   --gray: #6a6d76;
@@ -3943,7 +3943,11 @@ table td {
 .project {
   margin-bottom: 32px;
   transition: transform .2s ease-in-out;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  
 }
+
 .project__image {
   position: relative;
   display: flex;
