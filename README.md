@@ -1,4 +1,6 @@
-# EJL Digital - Creating games, apps and tools that are intuitive, fun and support people in their lives and work.
+# EJL Digital Portfolio Website
+
+Creating apps, games and tools that are intuitive, fun and support people in their lives and work.
 
 My portfolio website.
 

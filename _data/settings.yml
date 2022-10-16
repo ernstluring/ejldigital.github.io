@@ -50,7 +50,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Ernst
-  hero__description: I create games, apps and tools that are intuitive, fun and support people in their lives and work.
+  hero__description: I create apps, games and tools that are intuitive, fun and support people in their lives and work.
   hero__image: '/images/01.jpg'
 
 
