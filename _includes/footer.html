@@ -1,61 +1,95 @@
+<!-- begin footer -->
 <footer class="footer">
-  <div class="container">
+  <div class="footer__gallery">
+    {% if site.data.settings.gallery__enabled %}
+    <div class="gallery">
+      {% for image in site.data.settings.gallery.gallery__images %}
+      <div class="gallery__image">
+        <img
+          src="{{site.baseurl}}{{image.url}}"
+          alt="{{image.alt}}"
+          loading="lazy"
+        />
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div id="contact" class="container">
     <div class="row">
       <div class="col-12">
         <div class="footer__inner">
           <div class="container">
             <div class="row">
-              <div class="col col-d-12">
+              <div class="col col-8 col-d-12">
                 <div class="footer__author">
                   <div class="footer__author-avatar">
                     <img
-                      class="lazy loaded"
-                      alt="Ernst Luring"
-                      data-ll-status="loaded"
-                      src="/public/Ernst5-2.jpg"
+                      class="lazy"
+                      data-src="{{site.data.settings.author.author__avatar}}"
+                      alt="{{site.data.settings.author.author__name}}"
                     />
                   </div>
-                  <div id="contact" class="footer__author-info">
-                    <h3 class="footer__author-name">Ernst Luring</h3>
-                    <p class="footer__author-bio">Let's get in touch!</p>
-
-                    <p class="footer__author-reachme copyright">
-                      Email:
-                      <a href="mailto:{{site.author.email}}"
-                        >ernst@ejldigital.com</a
-                      >
-                      <br />
-                      LinkedIn:
-                      <a href="{{site.author.linkedin}}">ernstluring</a>
+                  <div class="footer__author-info">
+                    <h3 class="footer__author-name">
+                      {{site.data.settings.author.author__name}}
+                    </h3>
+                    <p class="footer__author-bio">
+                      {{site.data.settings.author.author__bio}}
                     </p>
-
+                    <p class="footer__author-bio">
+                      You can reach me through
+                      <a
+                        class="reach-me-link"
+                        href="mailto:{{site.data.settings.author.author__bio_email}}"
+                        >Email
+                      </a>
+                      or
+                      <a
+                        class="reach-me-link"
+                        href="{{site.data.settings.author.author__bio_linkedin}}"
+                        >LinkedIn</a
+                      >
+                      .
+                    </p>
+                    {% if site.data.settings.social %}
                     <div class="social">
                       <ul class="social__list list-reset">
+                        {% for social in site.data.settings.social %}
                         <li class="social__item">
                           <a
                             class="social__link"
-                            href="{{site.author.linkedin}}"
+                            href="{{social.link}}"
                             target="_blank"
                             rel="noopener"
-                            aria-label="LinkedIN link"
-                            ><i class="ion ion-logo-linkedin"></i
+                            aria-label="Social link"
+                            ><i class="ion {{social.icon}}"></i
                           ></a>
                         </li>
-
-                        <li class="social__item">
-                          <a
-                            class="social__link"
-                            href="mailto:{{site.author.email}}"
-                            target="_blank"
-                            rel="noopener"
-                            aria-label="Email link"
-                            ><i class="ion ion-md-mail"></i
-                          ></a>
-                        </li>
+                        {% endfor %}
                       </ul>
                     </div>
-                    <p class="copyright">KvK: {{site.author.kvk}}</p>
+                    {% endif %}
                   </div>
+                </div>
+              </div>
+
+              <div class="col col-4 col-d-12">
+                <div class="footer__nav">
+                  <h3 class="footer__nav-title">Navigation</h3>
+                  <ul class="footer__nav-list list-reset">
+                    {% for item in
+                    site.data.settings.footer_menu__settings.menu__items %}
+                    <li class="footer__nav-item">
+                      <a
+                        href="{{ item.url | relative_url }}"
+                        class="footer__nav-link"
+                        >{{ item.title }}</a
+                      >
+                    </li>
+                    {% endfor %}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -71,8 +105,11 @@
         <div class="footer__info">
           <div class="footer__info-box">
             <div class="copyright">
-              2022 © <a href="/">Ernst Luring</a> Built with
-              <a href="https://jekyllrb.com/">Jekyll</a><br />
+              {{site.time | date: '%Y'}} &copy;
+              <a href="/">{{site.data.settings.title}}</a>. Designed by
+              <a href="https://jekyllthemes.io/developers/artem-sheludko"
+                >Artem Sheludko</a
+              >.
             </div>
             <div class="top" title="Top">
               <i class="ion ion-ios-arrow-up"></i>
@@ -83,3 +120,4 @@
     </div>
   </div>
 </footer>
+<!-- end footer -->

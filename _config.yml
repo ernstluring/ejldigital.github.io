@@ -1,33 +1,56 @@
-# Permalinks
-permalink: pretty
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Setup
-title: "EJL Digital"
-url: https://ejldigital.com
-tagline: "I create games, apps and tools that are intuitive, fun and support
-  people in their lives and work."
 
-headline: "Hi, I’m Ernst"
-baseurl: ""
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-# sass:
-#   sass_dir: _sass
-#   style: :compressed
+paginate: 6
+paginate_path: "/blog/page/:num"
 
-# About/contact
-author:
-  name: Ernst Luring
-  twitter: https://twitter.com/ejldigital
-  email: ernst@ejldigital.com
-  linkedin: https://www.linkedin.com/in/ernstluring/
-  github: https://github.com/ernstluring
-  instagram: https://www.instagram.com/ejldigital/
-  kvk: 83625259
 
+#-------------------------------
+# Collections
 collections:
-  - latest_work
-# Custom vars
-version: 1.0.0
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+sass:
+  sass_dir: _sass
+  style: compressed
