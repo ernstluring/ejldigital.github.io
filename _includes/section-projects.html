@@ -20,7 +20,11 @@
             project in sorted limit:6 %}
             <article class="project col col-4 col-d-6 col-t-12">
               <div class="project__content">
-                <a {% if project.open == true %} href="{{ project.url }}" {% endif %} class="project__image">
+                {% if project.open == true %}
+                <a href="{{ project.url }}" class="project__image">
+                {% else %}
+                <a class="project__image">
+                {% endif %}
                   <img
                     class="lazy"
                     data-src="{{ project.image }}"
