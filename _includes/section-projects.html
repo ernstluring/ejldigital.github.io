@@ -33,11 +33,16 @@
                 </a>
                 <div class="project__info">
                   <h3 class="project__title">
+                    {% if project.open == true %}
                     <a href="{{ project.url }}">{{ project.title }}</a>
+                    {% else %}
+                    <a>{{ project.title }}</a>
+                    {% endif %}
                   </h3>
                   {% if project.company %}
                   <div class="project__subtitle">{{ project.company }}</div>
-                  {% endif %} {% if project.subtitle %}
+                  {% endif %} 
+                  {% if project.subtitle %}
                   <div class="project__subtitle">{{ project.subtitle }}</div>
                   {% endif %}
                 </div>
