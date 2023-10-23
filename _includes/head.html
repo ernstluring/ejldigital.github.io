@@ -19,6 +19,8 @@
   <link rel="alternate" type="application/rss+xml" title="{{
   site.data.settings.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  <meta name="author" content="{{site.data.settings.author.author__name}}" />
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{% if page.url == "/" %}{{

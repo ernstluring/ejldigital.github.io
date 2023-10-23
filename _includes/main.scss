@@ -29,8 +29,9 @@
     3.7-Contact
     3.8-Sections
     3.9-Projects
-    3.10-Testimonials
-    3.11-Footer
+    3.10-WorkWithMe
+    3.11-Testimonials
+    3.12-Footer
 :: 4-Layouts
     4.1-Post
     4.2-Project
@@ -91,9 +92,11 @@
 @import '3-modules/sections';
 /* >>>>>>>>>>>>>> :: 3.9-Projects <<<<<<<<<<<<<<< */
 @import '3-modules/projects';
-/* >>>>>>>>>>>>>> :: 3.10-Testimonials <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.10-WorkWithMe <<<<<<<<<<<<<<< */
+@import '3-modules/workwithme';
+/* >>>>>>>>>>>>>> :: 3.11-Testimonials <<<<<<<<<<<<<<< */
 @import '3-modules/testimonials';
-/* >>>>>>>>>>>>>> :: 3.11-Footer <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.12-Footer <<<<<<<<<<<<<<< */
 @import '3-modules/footer';
 
 

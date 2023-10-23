@@ -1,0 +1,53 @@
+<!-- begin work with me -->
+<section class="section workwithme animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="section__info">
+          <div class="section__head">
+            <h2 class="section__title">{{ site.data.settings.work-with-me__settings.work-with-me__title }}</h2>
+          </div>
+          {% if site.data.settings.work-with-me__settings.work-with-me__description %}
+           <p class="section__description">{{ site.data.settings.work-with-me__settings.work-with-me__description }}</p>
+          {% endif %}
+        </div>
+
+        <div class="row workwithme-row">
+          {% for item in site.data.settings.work-with-me__settings.work-with-me__items %}
+            <div class="article col col-4">
+              <div class="workwithme-content">
+                <div class="workwithme-meta">
+                  {% if item.image %}
+                    <div class="image-container">
+                      <img class="workwithme-avatar" src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy">
+                    </div>
+                  {% endif %}
+                  <div class="workwithme-info">
+                    {% if item.title %}
+                      <h3 class="workwithme-title">
+                        {% if item.link %}
+                          <a href="{{item.link}}" target="_blank" rel="noopener">{{ item.title }}</a>
+                        {% else %}
+                          {{ item.title }}
+                        {% endif %}
+                      </h3>
+                    {% endif %}
+                    {% if item.subtitle %}
+                      <p class="workwithme-subtitle">{{ item.subtitle }}</p>
+                    {% endif %}
+                  </div>
+                  {% if item.description %}
+                    <p class="workwithme-text">{{ item.description }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end work with me -->

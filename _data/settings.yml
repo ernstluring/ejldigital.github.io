@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-head_title: EJL Digital - Apps, Games and Tools that support people in their lives and work
+head_title: Ernst Luring - Apps, Games and Tools that support people in their lives and work
 title: EJL Digital
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Creating apps, games and tools that are intuitive, fun and support people in their lives and work.
@@ -15,6 +15,8 @@ menu__settings:
       url: '/'
     - title: 'Projects'
       url: '/#projects'
+    - title: 'Work with me'
+      url: '/#work-with-me'
     - title: 'Contact'
       url: '/#contact'
     # - title: 'Blog'
@@ -71,6 +73,20 @@ projects__settings:
 
 
 #-------------------------------
+# Work with me Settings
+work-with-me__settings:
+  work-with-me__title: Work with me
+  # work-with-me__description: description
+  work-with-me__items:
+    - title: "Brainstorm"
+      description: "description"
+      image: "/images/client-1.jpg"
+    - title: "MVP Development"
+      description: "test"
+      image: "/images/client-2.jpg"
+    
+
+#-------------------------------
 # Testimonials Section
 testimonial__title: Testimonials
 testimonial__description:
@@ -118,7 +134,7 @@ blog__settings:
 #-------------------------------
 # Gallery Footer Settings
 gallery:
-  gallergy__enabled: false
+  gallery__enabled: false
   gallery__images:
     - alt: 'Rest'
       url: '/images/gallery/mygallery-1.jpg'
