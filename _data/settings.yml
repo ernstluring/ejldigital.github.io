@@ -134,16 +134,16 @@ blog__settings:
 #-------------------------------
 # Gallery Footer Settings
 gallery:
-  gallery__enabled: false
+  gallery__enabled: true
   gallery__images:
     - alt: 'Rest'
-      url: '/images/gallery/mygallery-1.jpg'
+      url: '/images/gallery/sahara-2022.jpg'
     - alt: 'Lifestyle'
-      url: '/images/gallery/gallery-2.jpg'
-    - alt: 'Hobby'
       url: '/images/gallery/mygallery-3.jpg'
+    - alt: 'Hobby'
+      url: '/images/gallery/mygallery-1.jpg'
     - alt: 'Notes'
-      url: '/images/gallery/gallery-4.jpg'
+      url: '/images/gallery/mygallery-3.jpg'
 
 
 #-------------------------------
