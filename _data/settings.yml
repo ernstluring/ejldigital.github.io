@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
-head_title: EJL Digital - Apps, Games and Tools that support people in their lives and work
-title: EJL Digital
+head_title: Ernst Luring - Apps, Games and Tools that support people in their lives and work
+title: EJLDigital
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Creating apps, games and tools that are intuitive, fun and support people in their lives and work.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
